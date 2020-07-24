@@ -1,6 +1,66 @@
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Life Savers', serif; */
+h1 {
+  font-family: 'Life Savers', serif;
+  color: #2B4E80;
+}
 
+.main-area{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "left-main-area"
+    "right-main-area";
+}
+.right-main-area {
+  display: flex;
+  /* Need to format woody icon but moving on to JS due to time */
+}
+
+.left-main-area {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  background-color: #E6ECF4;;
+  padding: 6px;
+  height: 200px;
+  padding: 2%
+}
+
+.question-input {
+  color: #2B4E80;;
+  border: none;
+  background-color: white;
+  width: 97%;
+  margin: 4px;
+  margin-right: 1px;
+}
+.answer-button {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #607AA0;
+  color: white;
+  border: none;
+  width: 98%;
+  margin: 4px;
+  margin-right: 1px;
+}
+.eight-ball {
+  display: flex;
+  justify-content: center;
+}
+.clear-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.clear-button {
+  font-family: bold 'Open Sans', sans-serif;
+  background-color: #D0CDCD;
+  color: white;
+  border: none;
+  padding: 6px;
+  width: 50px;
+  margin-right: 7px;
+}
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
